@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- link to currently unpresent font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" 
+  rel="stylesheet">
+
+  <!-- link to main.css stylesheet file, it is good practice to seperate code -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+  {% block content %}{% endblock content%}
+</body>
+</html>
