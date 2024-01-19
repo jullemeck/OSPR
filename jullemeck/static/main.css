@@ -1,0 +1,65 @@
+
+/* default elements --------- */
+body {
+  background-image: url('backdrop.gif');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: auto;
+  align-items: center
+}
+header {
+ background-color: #4c4c4c;
+ padding: 10px;
+ font-size: 24px;
+}
+footer {
+ background-color: #4c4c4c;
+ padding: 10px;
+ font-size: 14px;
+ margin-top: auto; /* Push the footer to the bottom */
+ align-items: stretch;
+}
+/* Pixel art text effect */
+h1, h2 {
+ letter-spacing: 6px;
+ text-shadow: 2px 2px #000;
+}
+/* Pixel art button style */
+button {
+ background-color: #4c4c4c;
+ border: 1px solid #fff;
+ color: #fff;
+ padding: 10px;
+ font-size: 16px;
+ cursor: pointer;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* custom elements ----------- */
+.logo-container {
+  text-align  : center;
+}
+.page_title {
+  text-align: center;
+  text-indent: -30%;
+  text-align-last: center;
+}
+.page_container {
+  background-color: rgba(34, 34, 34, 0.7); /* Dark overlay for better text visibility */
+  border: 5px solid #4c4c4c;
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: auto;
+}
